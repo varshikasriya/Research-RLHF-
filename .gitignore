@@ -1,0 +1,19 @@
+# Python virtual environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Training outputs and generated run artifacts
+runs/
+
+# Local secrets
+.env
+.env.*
+!.env.example
